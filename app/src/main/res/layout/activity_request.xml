@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <!-- Login Form -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip">
+
+
+        <!--  Email Label -->
+        <RelativeLayout
+            android:id="@+id/rLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Email Id"/>
+            <TextView android:id="@+id/tvStar5"
+                android:layout_toRightOf="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="#ff0000"/>
+        </RelativeLayout>
+        <EditText android:id="@+id/etUsername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"/>
+        <!-- Blood Group-->
+        <RelativeLayout
+            android:id="@+id/rLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvBloodgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Blood Group"/>
+            <TextView android:id="@+id/tvStar1"
+                android:layout_toRightOf="@+id/tvBloodgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="#ff0000"/>
+        </RelativeLayout>
+        <AutoCompleteTextView android:id="@+id/actvBloodgroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <!-- Mobile Number-->
+        <RelativeLayout
+            android:id="@+id/rLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvMobilenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Mobile Number"/>
+            <TextView android:id="@+id/tvStar2"
+                android:layout_toRightOf="@+id/tvMobilenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="#ff0000"/>
+        </RelativeLayout>
+        <EditText android:id="@+id/etMobilenumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"
+            android:inputType="phone"/>
+
+        <!-- Land Mark-->
+       <!-- <RelativeLayout
+            android:id="@+id/rLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvLandmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="LandMark"/>
+            <TextView android:id="@+id/tvStar3"
+                android:layout_toRightOf="@+id/tvLandmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="#ff0000"/>
+        </RelativeLayout>
+        <EditText android:id="@+id/etLandmark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:inputType="textCapSentences" /> -->
+        <!-- City-->
+        <!--<RelativeLayout
+            android:id="@+id/rLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="City"/>
+            <TextView android:id="@+id/tvStar4"
+                android:layout_toRightOf="@+id/tvCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="#ff0000"/>
+        </RelativeLayout>
+        <EditText android:id="@+id/etCity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:inputType="textCapSentences" /> -->
+        <!-- Login button -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* marked fields are compulsary"
+            android:textSize="12sp"
+            android:textColor="#ff0000"/>
+
+        <Button android:id="@+id/btnRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Request"
+            android:background="@drawable/red_button" />
+
+    </LinearLayout>
+    <!-- Login Form Ends -->
+
+
+</LinearLayout>

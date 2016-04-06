@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        releaseConfig {
+            keyAlias 'releaseKey'
+            keyPassword 'Apple@1234'
+            storeFile file('C:/Users/psai/KeyStores/my-release-key.keystore.jks')
+            storePassword 'Apple@1234'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0 rc2"
+    defaultConfig {
+        applicationId "psai.develop.khoondaan"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 4
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:design:23.1.0'
+    compile 'com.google.android.gms:play-services-maps:8.3.0'
+    compile files('libs/aws-android-sdk-cognito-2.2.5.jar')
+    compile files('libs/aws-android-sdk-core-2.2.5.jar')
+    compile files('libs/aws-android-sdk-ddb-2.2.5.jar')
+    compile files('libs/aws-android-sdk-ddb-mapper-2.2.5.jar')
+    compile fileTree(include: 'Parse-*.jar', dir: 'libs')
+}

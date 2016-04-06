@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\libs\aws-android-sdk-cognito-2.2.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="da8389b0a1f6b35e017412716eafc343790ca5f2">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\aws-android-sdk-cognito-2.2.5-87688f426dd60887613c95c15029f392625d1885.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\classes-75076923ccca54b63c5d3f345f557523fedb802d.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\classes-55c62934c914c9bd43ed8085894651b2574baf5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\classes-f076b0e736186b352779457cdb58b0cb0297dd46.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\classes-b2422e723788fbea09c0359c6f7614420e5b0cec.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\classes-26ae7fc5f86fdb03b669a6a867df41181f0187a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\libs\aws-android-sdk-ddb-mapper-2.2.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="274d278d741237f41e453ec10d5aab4e4794eb4c">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\aws-android-sdk-ddb-mapper-2.2.5-84c4cb9ece6854fda719f61a7076cfd2f06d51c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0-d13c387eaa30191a75bacde7fe65f23836fd3463.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\classes-69b7ea041960dbe7fcb06282556efa64a749b80b.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\libs\aws-android-sdk-core-2.2.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ccd427b798b68d6add14c1926e987903b6d762b3">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\aws-android-sdk-core-2.2.5-a5225fee5fe6948dbe7beab76e966be7e36d2463.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\libs\bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\bolts-android-1.2.1-3039fc5f48baa5b20d3bf37c7f12ed5e8abbdc1c.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\libs\Parse-1.10.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="dfef23b83f8434c6e881096e1ac6d54dc3e52041">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\Parse-1.10.3-652ee102bfba6cdd230829f8b3ad8c7acd66e5fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0-8734ca7412743dc4680587590437b43ce995ff1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\classes-f77f0075c332c610ed2e0775504a82e2f7801573.jar" />
+    </item>
+    <item
+        jar="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\libs\aws-android-sdk-ddb-2.2.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="291c9e02eb08cbe57875687f7f93f8be4419500f">
+        <dex dex="C:\Users\psai\AndroidStudioProjects\KhoonDaan\app\build\intermediates\pre-dexed\release\aws-android-sdk-ddb-2.2.5-a9974e1af017df090061e7b7ae13ecd0a1d2e855.jar" />
+    </item>
+
+</items>
